@@ -61,9 +61,11 @@ int main() {
             show_task(todo_list, num_tasks);
             break;
         case 4:
+            show_task(todo_list, num_tasks);
             edit_tasks(todo_list, num_tasks);
             break;
         case 5:
+            show_task(todo_list, num_tasks);
             remove_task(todo_list, &num_tasks);
             break;
         case 6:
